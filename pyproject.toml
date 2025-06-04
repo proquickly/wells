@@ -1,0 +1,21 @@
+[project]
+name = "wells"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Andy Miles", email = "andy@proquickly.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2.6",
+    "sqlalchemy>=2.0.41",
+    "tqdm>=4.67.1",
+]
+
+[project.scripts]
+wells = "wells:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
