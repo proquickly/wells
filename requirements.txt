@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+pandas
+numpy
+sqlalchemy
+openpxl
+tqdm

@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import pytest
 import json
-from wells.dsl import DataMapper
+from dsl import DataMapper
 
 
 @pytest.fixture
